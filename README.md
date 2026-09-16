@@ -12,7 +12,7 @@
 
 # Automate GitHub, JIRA release notes with Google Gemini & notification over email
 
-This n8n template from [Intuz](https://www.intuz.com/) provides a complete and automated solution for creating and distributing sophisticated release notes.
+This n8n template from Intuz provides a complete and automated solution for creating and distributing sophisticated release notes.
 
 It connects to GitHub and JIRA to gather data from recent commits and completed tickets, using specific keywords or labels to identify key features for inclusion.
 
