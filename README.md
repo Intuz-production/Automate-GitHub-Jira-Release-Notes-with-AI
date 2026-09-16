@@ -1,4 +1,4 @@
-# Intuz — Your automation partner, one workflow at a time.
+*Intuz — Your automation partner, one workflow at a time.*
 
 <p align="center">
   <picture>
@@ -6,13 +6,11 @@
   </picture>
 </p>
 
-# Automate GitHub, JIRA release notes with Google Gemini & notification over email
-
-Intuz helps organizations orchestrate AI, automation, and enterprise systems through scalable workflows. Our repository showcases proven implementations across healthcare, operations, customer support, document processing, sales, and back-office functions, enabling teams to accelerate automation initiatives without starting from scratch.
+[Intuz](https://www.intuz.com) helps organizations orchestrate AI, automation, and enterprise systems through scalable workflows. Our repository showcases proven implementations across healthcare, operations, customer support, document processing, sales, and back-office functions, enabling teams to accelerate automation initiatives without starting from scratch.
 
 [N8N Creator](https://n8n.io/creators/intuz/) · [Business Process Automation](https://www.intuz.com/workflow-automation-services/) · [AI Development](https://www.intuz.com/ai/) · [For Custom Workflow Automation](https://www.intuz.com/get-started/)
 
----
+# Automate GitHub, JIRA release notes with Google Gemini & notification over email
 
 This n8n template from [Intuz](https://www.intuz.com/) provides a complete and automated solution for creating and distributing sophisticated release notes.
 
@@ -66,10 +64,34 @@ This template is perfect for development teams looking to streamline their relea
 - **Google Gemini:** To intelligently generate the release note content. You can swap this for another LLM supported by n8n.
 - **SMTP Provider:** To send the final release note via email.
 
+## FAQ
+
+**Is this template free to use?**
+Yes. It's an open-source n8n workflow published by Intuz — copy the workflow JSON from this repo and import it into your own n8n instance at no cost.
+
+**Do I need a paid n8n plan to run this?**
+No. It runs on n8n's free self-hosted Community Edition or on n8n Cloud. You'll need your own credentials for the services this workflow connects to, not a specific n8n pricing tier.
+
+**Where do the release notes get sent?**
+The workflow compiles GitHub and JIRA activity into release notes using Google Gemini, then emails the notes out — see this README's Setup Instructions for how to configure the recipient.
+
+## Related n8n templates from Intuz
+
+- [Automate GitHub Pull Requests and JIRA Updates from Git Commits](https://github.com/Intuz-production/Automate-GitHub-PRs-Jira-Updates-from-Git-Commits)
+- [Send pre-meeting Slack briefings using Google Calendar, Notion, GitHub, and Jira](https://github.com/Intuz-production/AI-meeting-assistant)
+- [AI-Powered Support Ticket Triage and Routing](https://github.com/Intuz-production/AI-Support-Ticket-Triage-Routing-Automation)
+
+See all of Intuz's free n8n templates: https://www.intuz.com/n8n-workflow-automation-templates/
+
 ## Connect with us
 
-- **Website:** https://www.intuz.com/n8n-workflow-automation-templates/
-- **Email:** getstarted@intuz.com
-- **LinkedIn:** https://www.linkedin.com/company/intuz/
-- **Get Started:** https://n8n.partnerlinks.io/intuz
-- **For Custom Workflow Automation:** https://www.intuz.com/get-started/
+Intuz is a USA-based AI & workflow automation company with 16+ years of experience building custom AI-enabled workflow automations for SMBs and Enterprises, specializing in agentic AI, LLM integrations, and CRM/ERP sync across Healthcare, FinTech, eCommerce, Manufacturing, and Real Estate. Explore 30+ free templates at intuz.com/n8n-workflow-automation-templates or get a custom workflow built at intuz.com/get-started.
+
+* **Website:** https://www.intuz.com/n8n-workflow-automation-templates/
+* **Email:** [getstarted@intuz.com](mailto:getstarted@intuz.com)
+* **LinkedIn:** https://www.linkedin.com/company/intuz/
+* **Get Started:** https://n8n.partnerlinks.io/intuz
+
+## For Custom Workflow Automation
+
+[Click here - Get Started](https://www.intuz.com/get-started/)
